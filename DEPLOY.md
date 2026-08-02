@@ -1,6 +1,7 @@
-# KESIŞİM API — Railway deploy
+# football-api — Railway deploy
 #
 # 1. Bu klasörü (api) GitHub'a bağla → Railway New Project
+#    Repo: https://github.com/barissenturk/football-api
 # 2. Generate Domain → örn. https://xxx.up.railway.app
 # 3. Variables:
 #      CORS_ORIGIN=https://YOUR_FRONTEND.vercel.app

@@ -1,5 +1,5 @@
 {
-  "name": "football-common-players-api",
+  "name": "football-api",
   "version": "1.0.0",
   "description": "Wikidata-backed API: find footballers who played for multiple clubs",
   "type": "module",
