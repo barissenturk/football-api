@@ -1,0 +1,25 @@
+{
+  "name": "football-common-players-api",
+  "version": "1.0.0",
+  "description": "Wikidata-backed API: find footballers who played for multiple clubs",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "sync": "node src/sync/wikidata.js",
+    "sync:quick": "node src/sync/wikidata.js --quick",
+    "sync:fener": "node src/sync/wikidata.js --only Q6601875",
+    "sync:logos": "node src/sync/logos.js",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "dev:web": "npm --prefix frontend run dev",
+    "build:web": "npm --prefix frontend run build"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
